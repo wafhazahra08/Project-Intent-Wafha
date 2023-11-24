@@ -1024,3 +1024,5 @@ Tambahkan code berikut pada bagian application agar set alarm dapat berjalan :
 </activity>
 Hasil Run
 Berikut adalah hasil running dari aplikasi yang telah saya buat :
+
+https://github.com/wafhazahra08/Project-Intent-Wafha/assets/131223804/4c8732c4-463c-4ad8-a3b4-ee282a1ea47b
