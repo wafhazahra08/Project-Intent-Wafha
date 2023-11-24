@@ -9,6 +9,7 @@ Kelas : TI.22.A5
 Mata Kuliah : Pemrograman Mobile 1
 
 Tugas :
+
 Buatkanlah :
 
 1. Launcher Splash logo masing-masing Individu 
@@ -27,17 +28,18 @@ Buatkanlah :
 
     e. Project Set Alarm
 
+ Untuk tampilan Layout Bebas, terima kasih.
  
-Untuk tampilan Layout Bebas, terima kasih.
-Launcher Splash Logo Pertama, yaitu membuat Launcher Splash Logo atau menampilkan logo / icon saat kita pertama kali membuka aplikasi. Caranya adalah :
-Persiapkan gambar terlebih dahulu
-Selanjutnya kita klik app, lalu klik res dan setelahnya kita pilih dan klik mipmap
-Setelah itu klik kanan pada bagian mipmap , lalu pilih new
-Lalu pilih dan klik Image Asset
-Lalu ketika sudah terbuka, kita klik bagian Icon Type lalu pilih yang Launcher Icons (Adaptive and Legacy)
-Lalu pada bagian Path kita klik logo file lalu kita pilih dan klik file gambar yang telah disiapkan sebelumnya dan klik OK
-Lalu untuk ukuran logo / ikon bisa kita atur pada bagian Resize, Jika sudah kita klik Next
-Setelah itu kita klik Finish, Maka logo / ikon aplikasi kita akan berubah sesuai gambar yang kita inginkan
+1. Launcher Splash Logo Pertama, yaitu membuat Launcher Splash Logo atau menampilkan logo / icon saat kita pertama kali membuka aplikasi. Caranya adalah :
+ a. Persiapkan gambar terlebih dahulu
+ b. Selanjutnya kita klik app, lalu klik res dan setelahnya kita pilih dan klik mipmap
+ c. Setelah itu klik kanan pada bagian mipmap , lalu pilih new
+ d. Lalu pilih dan klik Image Asset
+ e. Lalu ketika sudah terbuka, kita klik bagian Icon Type lalu pilih yang Launcher Icons (Adaptive and Legacy)
+ f. Lalu pada bagian Path kita klik logo file lalu kita pilih dan klik file gambar yang telah disiapkan sebelumnya dan klik OK
+ g. Lalu untuk ukuran logo / ikon bisa kita atur pada bagian Resize, Jika sudah kita klik Next
+ h. Setelah itu kita klik Finish, Maka logo / ikon aplikasi kita akan berubah sesuai gambar yang kita inginkan
+
 Untuk menambahkan file gambar seperti untuk SplashScreen, Background di setiap project kita bisa klik bagian Resource Manager lalu kita klik tanda +. Setelah itu kita pilih dan klik Import Drawables, setelah itu kita pilih dan klik file gambar yang sudah kita siapkan lalu klik OK. Maka gambar akan tersedia di res pada drawable.
 
 Lalu buka backgroundlauncher.xml dan masukkan code ini :
@@ -61,7 +63,7 @@ Lalu, buka themes.xml yang letaknya ada di res/values/themes, dan tambahkan code
     </style>
 </resources>
 Selanjutnya kita buat java class nya agar SplashScreen bisa berjalan, lalu pada SplashScreen.java kita masukkan code dibawah ini :
-package com.examplw.projectwafha;
+package com.example.projectwafha;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -213,3 +215,4 @@ Jika awal pembuatan project kita memilih template Empty Views Activity, maka pad
         android:scaleType="centerCrop"/>
 
 </RelativeLayout>
+
