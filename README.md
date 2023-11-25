@@ -336,7 +336,7 @@ a. Project Hello World = HelloActivity.java b. Project Count = CountActivity.jav
 Strings.xml
 
 <resources>
-    <string name="app_name">TGS9INTENT</string>
+    <string name="app_name">WAFHA</string>
     <string name="Hello_World">Hello World!!</string>
 
     <string name="button_main">Send</string>
@@ -943,7 +943,7 @@ public class TwoActivity extends AppCompatActivity {
 }
 Two2Activity.java
 
-package com.tgs9;
+package com.example.projectwafha;
 
 import android.content.Intent;
 import android.os.Bundle;
